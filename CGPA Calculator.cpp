@@ -8,5 +8,12 @@ using namespace std;
 int main()
 {
 	cout << "holi" << endl;
+	cout << "holi" << endl;
+	cout << "holi" << endl;
+	cout << "holi" << endl;
+	cout << "holi" << endl;
+	cout << "holi" << endl;
+	cout << "holi" << endl;
+
 	return 0;
 }
