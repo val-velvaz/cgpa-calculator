@@ -12,7 +12,11 @@ endif()
 project ("CGPA Calculator")
 
 # Add source to this project's executable.
-add_executable (CMakeTarget "CGPA Calculator.cpp" "CGPA Calculator.h")
+add_executable (CMakeTarget "source/main.cpp"  "source/main_menu.cpp")
+
+target_include_directories(CMakeTarget PRIVATE 
+	"${PROJECT_SOURCE_DIR}/include"
+)
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET CMakeTarget PROPERTY CXX_STANDARD 20)
